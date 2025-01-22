@@ -16,6 +16,12 @@
           user-select: none;
         }
 
+        .card-img-top {
+          width: 100%;
+          height: auto; /* Para que la altura se ajuste automáticamente */
+          object-fit: cover; /* Ajusta la imagen dentro del cuadro */
+        }
+
         @media (min-width: 768px) {
           .bd-placeholder-img-lg {
             font-size: 3.5rem;
@@ -116,9 +122,9 @@
               <li><a href="VISTA/Maquinas/hormigoneras.html" class="text-white">Hormigoneras</a></li>
               <li><a href="VISTA/Herramientas/carretillas.html" class="text-white">Carretillas</a></li>
               <li><a href="VISTA/Repuestos/Hormigonera.html" class="text-white">Repuestos de Hormigonera/Trompito</a></li>
-              <li><a href="https://wa.me/+595985986731" class="text-white">Whatsapp</a></li>
               <li><a href="VISTA/Herramientas/herramientasVarias.html" class="text-white">Otras Herramientas</a></li>
               <li><a href="VISTA/Repuestos/taladro.html" class="text-while">Repuestos para Taladro</a></li>
+              <li><a href="https://wa.me/+595985986731" class="text-white">Whatsapp</a></li>
               <li><a href="index.html">INICIO</a></li>
             </ul>
           </div>
@@ -142,62 +148,51 @@
           <div class="container">
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
                   <div class="col">
-                      <div class="card shadow-sm">
-                          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false">
-                              <rect width="100%" height="100%" fill="#55595c"/>
-                              <image href="https://tottal.store/wp-content/uploads/TA6922135.webp" width="100%" height="225" preserveAspectRatio="xMidYMid slice"/>
-                          </svg>
-                          <div class="card-body">
-                              <p class="card-text">HORMIGONERA SIN REFORZAR</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                  <small class="text-body-secondary">2.350.000 ₲</small>
-                              </div>
-                          </div>
-                      </div>
+                    <div class="card shadow-sm">
+                        <img src="https://tottal.store/wp-content/uploads/TA6922135.webp" class="card-img-top" alt="Descripción de la imagen">
+                        <div class="card-body">
+                            <p class="card-text">HORMIGONERA SIN REFOZAR</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">2.350.000 ₲</small>
+                            </div>
+                        </div>
+                    </div>
                   </div>
-
+                  
                   <div class="col">
-                      <div class="card shadow-sm">
-                          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false">
-                              <rect width="100%" height="100%" fill="#55595c"/>
-                              <image href="https://tiendapetersen.com.py/cdn/shop/products/TR20628-1_1000x.jpg?v=1736343040" width="100%" height="225" preserveAspectRatio="xMidYMid slice"/>
-                          </svg>
-                          <div class="card-body">
-                              <p class="card-text">CARRETILLA PETRUL</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                  <small class="text-body-secondary">520.000 ₲</small>
-                              </div>
-                          </div>
-                      </div>
+                    <div class="card shadow-sm">
+                        <img src="https://tiendapetersen.com.py/cdn/shop/products/TR20628-1_1000x.jpg?v=1736343040" class="card-img-top" alt="Descripción de la imagen">
+                        <div class="card-body">
+                            <p class="card-text">CARRETILLA PETRUL</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">520.000 ₲</small>
+                            </div>
+                        </div>
+                    </div>
                   </div>
                   <div class="col">
-                      <div class="card shadow-sm">
-                          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false">
-                              <rect width="100%" height="100%" fill="#55595c"/>
-                              <image href="https://porter.com.py/image/cache/catalog/Truper/10/102/TR.102996-a-1000x1000.jpg.webp" width="100%" height="225" preserveAspectRatio="xMidYMid slice"/>
-                          </svg>
-                          <div class="card-body">
-                              <p class="card-text">CARRETILLA KID TRUPER</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                  <small class="text-body-secondary">250.000 ₲</small>
-                              </div>
-                          </div>
-                      </div>
+                    <div class="card shadow-sm">
+                        <img src="https://porter.com.py/image/cache/catalog/Truper/10/102/TR.102996-a-1000x1000.jpg.webp" class="card-img-top" alt="Descripción de la imagen">
+                        <div class="card-body">
+                            <p class="card-text">CARRETILLA KID TRUPER</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">250.000 ₲</small>
+                            </div>
+                        </div>
+                    </div>
                   </div>
                   <div class="col">
-                      <div class="card shadow-sm">
-                          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false">
-                              <rect width="100%" height="100%" fill="#55595c"/>
-                              <image href="https://fibrac.com.py/web/wp-content/uploads/2021/04/parri-1.jpg" width="100%" height="225" preserveAspectRatio="xMidYMid slice"/>
-                          </svg>
-                          <div class="card-body">
-                              <p class="card-text">PARRILLA DE CHAPA</p>
-                              <div class="d-flex justify-content-between align-items-center">
-                                  <small class="text-body-secondary">280.000 ₲</small>
-                              </div>
-                          </div>
-                      </div>
+                    <div class="card shadow-sm">
+                        <img src="https://fibrac.com.py/web/wp-content/uploads/2021/04/parri-1.jpg" class="card-img-top" alt="Descripción de la imagen">
+                        <div class="card-body">
+                            <p class="card-text">CARRETILLA DE CHAPA</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">280.000 ₲</small>
+                            </div>
+                        </div>
+                    </div>
                   </div>
+                  
               </div>
           </div>
       </div>
